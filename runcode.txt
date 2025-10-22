@@ -1,5 +1,0 @@
-cd C:\java_files\job_project
-javac -cp ".;opencv-4120.jar;mysql-connector-j-9.4.0.jar" *.java
-
-
-java --enable-native-access=ALL-UNNAMED -cp ".;opencv-4120.jar;mysql-connector-j-9.4.0.jar" LoginRegister
