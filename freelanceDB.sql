@@ -163,3 +163,11 @@ CREATE TABLE payments (
     payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     status VARCHAR(50) DEFAULT 'completed'
 );
+SELECT * FROM users;
+DELETE FROM users
+WHERE user_id = 27
+
+ALTER TABLE users ADD COLUMN face_data TEXT;
+ALTER TABLE users 
+MODIFY face_data MEDIUMTEXT;
+
